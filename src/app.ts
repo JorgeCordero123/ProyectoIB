@@ -19,6 +19,4 @@ const main = async () => {
     await server.start();
 }
 
-(() => {
-    main();
-})()
+(() => main())()
